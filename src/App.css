@@ -95,3 +95,8 @@ span {
     width: 80%;
     object-fit: contain;
 }
+
+button {
+  font-size: inherit;
+    margin: 0 10px 35px 0 ;
+}
