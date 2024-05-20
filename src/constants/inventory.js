@@ -328,4 +328,65 @@ export let inventory = [
     },
 ];
 
+// const assignmentOne = inventory.map((names)=> {
+//     return names.type
+// }
+// )
+// console.log(assignmentOne)
+//
+// const assignmentTwo = inventory.map((soldout)=>{
+//
+//     if (soldout.originalStock - soldout.sold === 0)
+//         return soldout
+// }
+// )
+// console.log(assignmentTwo)
+//
+//
+// const assignmentThree = inventory.find ((search)=>{
+//
+//    return search.type = 'NH3216SMART'
+// }
+// )
+// console.log(assignmentThree)
+//
+// const assignmentFour = inventory.map ((sport)=>{
+//
+//     if (sport.refreshRate >= 100) {return `name: ${sport.name}, suitable: true`}
+//     else {return `name: ${sport.name}, suitable: false`}
+//
+// }
+// )
+// console.log(assignmentFour)
+//
+//
+// const zoek = inventory.filter((test)=>
+//
+// { return Boolean(test.refreshRate >= 100)
+//     }
+// )
+//
+// console.log(zoek)
 
+// Gebruik array-methoden om alle informatie te verzamelen van de tv's die beschikbaar zijn in schermgroottes van 65 inch en groter.
+// const assignmentFive = inventory.filter ((size)=> {
+//     for (let i = 0; i < size.availableSizes.length; i++) {
+//         if (size.availableSizes[i] >= 65)
+//         {
+//             return size
+//         }
+//     }
+// })
+//
+// console.log(assignmentFive)
+
+
+// Gebruik array-methoden om alle informatie te verzamelen van de tv's die over ambilight beschikken.
+
+
+// const assignmentSix = inventory.filter ((light)=>{
+//
+//     return light.options[4].applicable === true
+//
+// })
+// console.log(assignmentSix)

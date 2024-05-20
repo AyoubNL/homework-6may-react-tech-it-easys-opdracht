@@ -1,0 +1,101 @@
+* {
+    margin: 0 15px 0 15px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    margin: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+article {
+    border: 2px solid black;
+    width: 250px;
+    height: 200px;
+    padding: 45px 29px 29px 29px;
+}
+
+article:nth-child(1) {
+    background-color: #effbf9;
+}
+
+article:nth-child(2) {
+    background-color: #f1f7f9;
+}
+
+article:nth-child(3) {
+    background-color: #fdefec;
+}
+
+.bestselling {
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 0 0 50px 70px;
+    font-size: 20px;
+}
+
+
+.tvnamelayout {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 320px;
+}
+
+.tvpricelayout {
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 320px;
+}
+
+.tvsizelayout {
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 320px;
+}
+
+span {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+
+}
+
+.bestselling span img {
+    height: 18px;
+    width: 18px;
+}
+
+.tvfoto {
+    position: absolute;
+    top: 25px;
+    left: -214px;
+    height: 80%;
+    width: 75%;
+    object-fit: contain;
+}
+
+button {
+    font-size: inherit;
+    margin: 0 10px 35px 0;
+}
