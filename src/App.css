@@ -49,54 +49,53 @@ article:nth-child(3) {
     height: 250px;
     border: 2px solid black;
     margin: 0 0 50px 70px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
-
-#tvname {
-display: inline-block;
+.tvnamelayout {
+    display: inline-block;
     position: absolute;
     top: 25px;
-    left: 300px;
+    left: 320px;
 }
-#tvprice {
+
+.tvpricelayout {
     display: inline-block;
     position: absolute;
     top: 65px;
-    left: 300px;
+    left: 320px;
 }
 
-#tvsize {
+.tvsizelayout {
     display: inline-block;
     position: absolute;
     top: 110px;
-    left: 300px;
+    left: 320px;
 }
 
 span {
     position: absolute;
     top: 160px;
-    left: 290px;
+    left: 300px;
 
 }
 
 .bestselling span img {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
 }
 
-
-.samsung {
+.tvfoto {
     position: absolute;
-    top: 25px ;
-    left: -250px;
+    top: 25px;
+    left: -214px;
     height: 80%;
-    width: 80%;
+    width: 75%;
     object-fit: contain;
 }
 
 button {
-  font-size: inherit;
-    margin: 0 10px 35px 0 ;
+    font-size: inherit;
+    margin: 0 10px 35px 0;
 }
